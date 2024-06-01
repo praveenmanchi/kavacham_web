@@ -16,7 +16,7 @@ const feature_data = [
   {
     id: 3,
     icon: "/assets/img/icon/feature-icon1-3.svg",
-    title: " AI driven combat superiority",
+    title: "AI driven combat superiority",
     text: "We care success relationships fuel success we love building",
   },
 ]
