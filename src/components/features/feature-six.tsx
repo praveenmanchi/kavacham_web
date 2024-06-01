@@ -4,19 +4,19 @@ const feature_data = [
   {
     id: 1,
     icon: "/assets/img/icon/feature-icon1-1.svg",
-    title: "Branding Design",
-    text: "We care success relationships fuel success we love building",
+    title: "Global Decision-Making AI",
+    text: "Our targeting system offering supports soldiers with an Al-powered kill chain, seamlessly and responsibly integrating target identification and target effector pairing.",
   },
   {
     id: 2,
     icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "Web Development",
-    text: "We care success relationships fuel success we love building",
+    title: "Data Protection Modules and Capabilities",
+    text: "Gotham enables the autonomous tasking of sensors, from drones to satellites, based on Al driven rules or manual inputs for human-in-the-loop control.",
   },
   {
     id: 3,
     icon: "/assets/img/icon/feature-icon1-3.svg",
-    title: "Digital Marketing",
+    title: " AI driven combat superiority",
     text: "We care success relationships fuel success we love building",
   },
 ]

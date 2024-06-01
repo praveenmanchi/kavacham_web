@@ -33,6 +33,8 @@ export default function Contact() {
       <ContactOne/>
       {/* contact area */}
 
+      
+
       {/* marquee slider */}
       <MarqueeSlider/>
       {/* marquee slider */}

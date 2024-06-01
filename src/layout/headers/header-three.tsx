@@ -98,7 +98,7 @@ export default function HeaderThree() {
                 </div>
                 <div className="col-auto d-none d-lg-block">
                   <div className="header-button">
-                    <NavLink to="/project" className="btn">
+                    <NavLink to="/contact" className="btn">
                       <span className="link-effect">
                         <span className="effect-1">WORKS WITH US</span>
                         <span className="effect-1">WORKS WITH US</span>
