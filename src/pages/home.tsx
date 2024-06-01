@@ -7,7 +7,6 @@ import PortfolioFive from "../components/portfolio/portfolio-five";
 import VideoArea from "../components/video/video-area";
 import BlogOne from "../components/blog/blog-one";
 import FooterOne from "../layout/footer/footer-one";
-import CtaOne from '../components/cta/cta-one';
 import FeatureSix from "../components/features/feature-six";
 
 
@@ -52,9 +51,6 @@ export default function HomeFive() {
       <BlogOne style_3={true} />
       {/* blog area */}
 
-      {/* cta area */}
-      <CtaOne/>
-      {/* cta area */}
 
       {/* footer area */}
       <FooterOne />
