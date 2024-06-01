@@ -32,13 +32,15 @@ export default function HomeFive() {
       <FeatureSix />
       {/* feature area */}
 
+    
+      {/* portfolio area */}
+      <PortfolioFour />
+      {/* portfolio area */}
+      
       {/* about area */}
       <AboutTwo />
       {/* about area */}
 
-      {/* portfolio area */}
-      <PortfolioFour />
-      {/* portfolio area */}
 
 
 
