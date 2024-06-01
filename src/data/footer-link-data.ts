@@ -1,6 +1,6 @@
 export const links_one = [
   { id: 1, href: "/about", text: "ABOUT COMPANY" },
-  { id: 2, href: "/project", text: "OUR CAREERS" },
+  // { id: 2, href: "/project", text: "OUR CAREERS" },
   { id: 3, href: "/service", text: "SERVICES" },
   { id: 4, href: "/contact", text: "CONTACT" },
 ];

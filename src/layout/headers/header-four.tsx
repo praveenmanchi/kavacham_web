@@ -97,25 +97,13 @@ export default function HeaderFour() {
                   </div>
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                  <div className="header-button ms-0">
-                    <button
-                      onClick={() =>
-                        document
-                          .getElementsByClassName("popup-search-box")[0]
-                          ?.classList.toggle("show")
-                      }
-                      type="button"
-                      className="search-btn searchBoxToggler"
-                    >
-                      <img
-                        src="/assets/img/icon/search-white.svg"
-                        alt="icon"
-                      />
+                  <div className="header-button">
+                    <NavLink to="/project" className="btn">
                       <span className="link-effect">
-                        <span className="effect-1">SEARCH</span>
-                        <span className="effect-1">SEARCH</span>
+                        <span className="effect-1">WORKS WITH US</span>
+                        <span className="effect-1">WORKS WITH US</span>
                       </span>
-                    </button>
+                    </NavLink>
                   </div>
                 </div>
               </div>

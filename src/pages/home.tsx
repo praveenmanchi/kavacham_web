@@ -11,8 +11,6 @@ import CtaOne from '../components/cta/cta-one';
 import FeatureSix from "../components/features/feature-six";
 
 
-
-
 export default function HomeFive() {
   return (
     <Wrapper>

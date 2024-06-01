@@ -1,11 +1,12 @@
 import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
 import HeaderThree from "../layout/headers/header-three";
-import FooterEight from "../layout/footer/footer-eight";
 import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
 import ContactInfo from "../components/contact/contact-info";
 import ContactOne from "../components/contact/contact-one";
 import MarqueeSlider from "../components/marquee-slider";
+import FooterOne from "../layout/footer/footer-one";
+
 
 
 export default function Contact() {
@@ -36,8 +37,9 @@ export default function Contact() {
       <MarqueeSlider/>
       {/* marquee slider */}
 
+    
       {/* footer area */}
-      <FooterEight/>
+      <FooterOne />
       {/* footer area */}
     </Wrapper>
   )

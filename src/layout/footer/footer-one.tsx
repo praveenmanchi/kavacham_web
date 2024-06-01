@@ -71,8 +71,8 @@ const FooterOne = () => {
             <div className="col-md-6 align-self-center text-lg-end">
               <p className="copyright-text">
                 Copyright © {new Date().getFullYear()}{" "}
-                <a href="https://themeforest.net/user/themegenix/portfolio">
-                  ThemeGenix
+                <a href="#">
+                 Kavacham Technologies Pvt.
                 </a>
               </p>
             </div>
