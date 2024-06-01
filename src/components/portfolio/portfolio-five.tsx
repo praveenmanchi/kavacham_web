@@ -32,6 +32,15 @@ export default function PortfolioFive() {
   return (
     <div className="project-area-6">
       <div className="container-fluid p-0">
+      <div className="row justify-content-center">
+          <div className="col-xl-7 col-lg-8">
+            <div className="title-area text-center">
+              <h2 className="sec-title text-smoke">
+                Discover My Selected Projects
+              </h2>
+            </div>
+          </div>
+        </div>
         <div className="row g-0">
           <div className="col-12">
             <div className="portfolio-static-wrap">

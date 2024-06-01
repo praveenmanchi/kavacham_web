@@ -5,6 +5,8 @@ import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
 import ContactInfo from "../components/contact/contact-info";
 import ContactOne from "../components/contact/contact-one";
 import MarqueeSlider from "../components/marquee-slider";
+import CtaOne from '../components/cta/cta-one';
+
 import FooterOne from "../layout/footer/footer-one";
 
 
@@ -24,10 +26,15 @@ export default function Contact() {
       {/* breadcrumb start */}
       <BreadcrumbOne title="Contact" />
       {/* breadcrumb end */}
+      
+      
 
       {/* contact info */}
       <ContactInfo/>
       {/* contact info */}
+      {/* cta area */}
+      <CtaOne/>
+      {/* cta area */}
 
       {/* contact area */}
       <ContactOne/>

@@ -3,7 +3,7 @@ import SEOCom from "../components/seo";
 import HeaderFour from "../layout/headers/header-four";
 import HeroBannerFive from "../components/hero-banner/hero-banner-five";
 import AboutTwo from "../components/about/about-two";
-import PortfolioFour from "../components/portfolio/portfolio-four";
+import PortfolioFive from "../components/portfolio/portfolio-five";
 import VideoArea from "../components/video/video-area";
 import BlogOne from "../components/blog/blog-one";
 import FooterOne from "../layout/footer/footer-one";
@@ -34,7 +34,7 @@ export default function HomeFive() {
 
     
       {/* portfolio area */}
-      <PortfolioFour />
+      <PortfolioFive />
       {/* portfolio area */}
       
       {/* about area */}

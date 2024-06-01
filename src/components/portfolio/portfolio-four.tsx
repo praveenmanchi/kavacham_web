@@ -34,7 +34,7 @@ export default function PortfolioFour() {
           <div className="col-xl-7 col-lg-8">
             <div className="title-area text-center">
               <h2 className="sec-title text-smoke">
-                Discover Our Selected Projects
+                Our applications Projects
               </h2>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function PortfolioFour() {
             </div>
           ))}
         </div>
-        <div className="btn-wrap mt-50 justify-content-center">
+        {/* <div className="btn-wrap mt-50 justify-content-center">
           <NavLink
             to="/project"
             className="btn bg-theme text-title"
@@ -83,7 +83,7 @@ export default function PortfolioFour() {
               <span className="effect-1">VIEW ALL PROJECTS</span>
             </span>
           </NavLink>
-        </div>
+        </div> */}
       </div>
     </div>
   );
