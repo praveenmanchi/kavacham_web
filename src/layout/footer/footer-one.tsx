@@ -1,15 +1,22 @@
 import { NavLink } from 'react-router-dom';
 import Socials from '../../components/social';
 import { links_one, links_two } from '../../data/footer-link-data';
+import posthog from 'posthog-js';
 
 const FooterOne = () => {
+  const handleFooterLinkClick = (linkText: string) => {
+    posthog.capture('footer_link_clicked', {
+      link_text: linkText,
+    });
+  };
+
   return (
     <footer className="footer-wrapper footer-layout1 overflow-hidden bg-smoke">
       <div className="container">
         <div className="footer-top space">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
-              <h2 className="footer-top-title">Let’s Work Together</h2>
+              <h2 className="footer-top-title">Let's Work Together</h2>
             </div>
             <div className="col-lg-5">
               <div className="footer-top-wrap">
@@ -33,7 +40,7 @@ const FooterOne = () => {
               <ul className="footer-menu-list">
               {links_one.map((link, index) => (
                 <li key={index}>
-                  <NavLink to={link.href}>
+                  <NavLink to={link.href} onClick={() => handleFooterLinkClick(link.text)}>
                     <span className="link-effect">
                       <span className="effect-1">{link.text}</span>
                       <span className="effect-1">{link.text}</span>
@@ -47,7 +54,7 @@ const FooterOne = () => {
               <ul className="footer-menu-list">
                 {links_two.map((link) => (
                   <li key={link.id}>
-                    <NavLink to={link.href}>
+                    <NavLink to={link.href} onClick={() => handleFooterLinkClick(link.text)}>
                       <span className="link-effect">
                         <span className="effect-1">{link.text}</span>
                         <span className="effect-1">{link.text}</span>

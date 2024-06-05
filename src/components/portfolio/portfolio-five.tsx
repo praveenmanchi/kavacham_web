@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import posthog from 'posthog-js';
 
 const portfolio_data = [
   {
@@ -32,6 +33,12 @@ const portfolio_data = [
 ];
 
 export default function PortfolioFive() {
+  const handlePortfolioClick = (portfolioTitle: string) => {
+    posthog.capture('portfolio_clicked', {
+      portfolio_title: portfolioTitle,
+    });
+  };
+
   return (
     <div className="project-area-6">
       <div className="container-fluid p-0">
@@ -61,7 +68,7 @@ export default function PortfolioFive() {
                           ))}
                         </ul>
                         <h3 className="portfolio-title">
-                          <NavLink to={elm.link}>{elm.title}</NavLink>
+                          <NavLink to={elm.link} onClick={() => handlePortfolioClick(elm.title)}>{elm.title}</NavLink>
                         </h3>
                       </div>
                       <div className="portfolio-details-btn">
