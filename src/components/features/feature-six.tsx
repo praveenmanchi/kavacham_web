@@ -26,7 +26,7 @@ const feature_data = [
 ];
 
 export default function FeatureSix() {
-  const handleFeatureClick = (featureTitle) => {
+  const handleFeatureClick = (featureTitle: string) => {
     // Capture the event when a feature card is clicked
     posthog.capture('feature_clicked', {
       feature_title: featureTitle,
