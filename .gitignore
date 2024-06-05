@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+public/assets/css/
+public/assets/sass/
+tsconfig.json
+vite.config.ts

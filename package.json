@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
     "@types/imagesloaded": "^4.1.6",
     "@types/jquery": "^3.5.29",
     "@types/react-modal-video": "^1.2.3",
@@ -19,11 +20,14 @@
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.7.1",
+    "posthog-js": "^1.136.7",
+    "posthog-react-native": "^3.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.4",
     "react-helmet-async": "^2.0.4",
     "react-modal-video": "^2.0.1",
+    "react-native-device-info": "^11.1.0",
     "react-paginate": "^8.2.0",
     "react-responsive-masonry": "^2.2.0",
     "react-router-dom": "^6.22.3",
