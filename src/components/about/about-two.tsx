@@ -22,21 +22,19 @@ export default function AboutTwo() {
               <div className="about-content-wrap fade_right">
                 <div className="title-area mb-0">
                   <h2 className="sec-title text-smoke">
-                    We Offer a Wide Range of Brand Services
+                  Revolutionizing Defense with Advanced AI Solutions
                   </h2>
                   <p className="sec-text mt-35 mb-25 text-smoke">
-                    We are a creative agency working with brands building
-                    insightful strategy, creating unique designs and crafting
-                    value
+                  We are a pioneering Indian startup at the forefront of the defense sector, specializing in the development and deployment of advanced software and frontline applications. Our mission is to enhance operational efficiency and decision-making capabilities through state-of-the-art artificial intelligence and comprehensive data analytics.
                   </p>
                   <h5 className="text-smoke mb-2">
-                    Human Centered Design to Challenges
+                  Cutting-Edge AI-Driven Software
                   </h5>
                   <h5 className="text-smoke mb-2">
-                    Bring Their Individual Experience
+                  Real-Time Data Validation and Analytics
                   </h5>
                   <h5 className="text-smoke mb-0">
-                    Developing Core Web Applications
+                  Frontline Applications
                   </h5>
                   <div className="btn-wrap mt-50">
                     <NavLink

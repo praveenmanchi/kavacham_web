@@ -17,7 +17,7 @@ export default function ServiceDetailsArea() {
           </div>
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Branding Design</h2>
+              <h2 className="sec-title">Project One</h2>
               <p className="sec-text mt-30">
                 BaseCreate is pleased to announce that it has been commissioned
                 by Leighton Asia reposition its brand. We will help Leighton

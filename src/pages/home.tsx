@@ -5,7 +5,7 @@ import HeroBannerFive from "../components/hero-banner/hero-banner-five";
 import AboutTwo from "../components/about/about-two";
 import PortfolioFive from "../components/portfolio/portfolio-five";
 import VideoArea from "../components/video/video-area";
-import BlogOne from "../components/blog/blog-one";
+// import BlogOne from "../components/blog/blog-one";
 import FooterOne from "../layout/footer/footer-one";
 import FeatureSix from "../components/features/feature-six";
 
@@ -48,7 +48,7 @@ export default function HomeFive() {
       {/* video area */}
 
       {/* blog area */}
-      <BlogOne style_3={true} />
+      {/* <BlogOne style_3={true} /> */}
       {/* blog area */}
 
 

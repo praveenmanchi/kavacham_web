@@ -3,7 +3,7 @@ import SEOCom from "../components/seo";
 import HeaderThree from "../layout/headers/header-three";
 import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
 import ContactInfo from "../components/contact/contact-info";
-import ContactOne from "../components/contact/contact-one";
+// import ContactOne from "../components/contact/contact-one";
 import MarqueeSlider from "../components/marquee-slider";
 import CtaOne from '../components/cta/cta-one';
 
@@ -37,7 +37,7 @@ export default function Contact() {
       {/* cta area */}
 
       {/* contact area */}
-      <ContactOne/>
+      {/* <ContactOne/> */}
       {/* contact area */}
 
       

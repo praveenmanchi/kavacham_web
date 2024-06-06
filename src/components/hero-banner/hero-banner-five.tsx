@@ -75,7 +75,7 @@ export default function HeroBannerFive() {
                         src="/assets/img/icon/worldwide.svg"
                         alt="img"
                       />
-                      <h6>Agency of this year worldwide</h6>
+                      <h6>An Indian Startup</h6>
                     </div>
                   </div>
                 </div>

@@ -6,21 +6,21 @@ const portfolio_data = [
     id: 1,
     title: "Decentralized Platform",
     imageSrc: "/assets/img/portfolio/portfolio5_1.jpg",
-    link: "/blog-details",
+    link: "/project_one",
     categories: ["Branding", "Development", "Marketing"],
   },
   {
     id: 2,
     title: "App for Business",
     imageSrc: "/assets/img/portfolio/portfolio5_2.jpg",
-    link: "/portfolio-item-2",
+    link: "/project_two",
     categories: ["Development", "Marketing"],
   },
   {
     id: 3,
     title: "Educational Platform",
     imageSrc: "/assets/img/portfolio/portfolio5_3.jpg",
-    link: "/portfolio-item-3",
+    link: "/project_three",
     categories: ["Marketing", "Branding"],
   },
   {
@@ -45,7 +45,7 @@ export default function PortfolioFive() {
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-8">
             <div className="title-area text-center">
-              <h2 className="sec-title text-smoke">Our stat of art products</h2>
+              <h2 className="sec-title text-smoke">Our state of art products</h2>
             </div>
           </div>
         </div>

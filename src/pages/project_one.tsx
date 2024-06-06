@@ -1,7 +1,7 @@
 import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
 import HeaderThree from "../layout/headers/header-three";
-import FooterEight from "../layout/footer/footer-eight";
+import FooterOne from "../layout/footer/footer-one";
 import MarqueeSlider from "../components/marquee-slider";
 import BreadcrumbTwo from "../components/breadcrumb/breadcrumb-two";
 import ServiceDetailsArea from "../components/service/service-details-area";
@@ -12,7 +12,7 @@ export default function ServiceDetailsPage() {
     <Wrapper>
 
       {/* seo title */}
-      <SEOCom title="Service Details" />
+      <SEOCom title="Project one" />
       {/* seo title */}
 
       {/* header area start */}
@@ -20,7 +20,7 @@ export default function ServiceDetailsPage() {
       {/* header area end */}
 
       {/* breadcrumb start */}
-      <BreadcrumbTwo title="Services" subtitle="Branding Design" />
+      <BreadcrumbTwo title="Services" subtitle="Project one" />
       {/* breadcrumb end */}
 
       {/* service details area */}
@@ -32,7 +32,7 @@ export default function ServiceDetailsPage() {
       {/* marquee slider */}
 
       {/* footer area */}
-      <FooterEight />
+      <FooterOne />
       {/* footer area */}
     </Wrapper>
   )

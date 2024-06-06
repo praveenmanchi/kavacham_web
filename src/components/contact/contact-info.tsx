@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import posthog from 'posthog-js';
 
 const contactInfo = [
   {
@@ -15,7 +16,6 @@ const contactInfo = [
     email: "contact@kavacham.tech",
     email2: "sales@kavacham.tech",
     linkUrl: "mailto:contact@kavacham.tech",
-
     linkText: "Send message",
   },
   {
@@ -29,6 +29,12 @@ const contactInfo = [
 ];
 
 const ContactInfo = () => {
+  const handleContactClick = (contactTitle: string) => {
+    posthog.capture('contact_clicked', {
+      contact_title: contactTitle,
+    });
+  };
+
   return (
     <div className="feature-area-1 space">
       <div className="container">
@@ -41,7 +47,7 @@ const ContactInfo = () => {
                 </div>
                 <div className="feature-card-details">
                   <h4 className="feature-card-title">
-                    <NavLink to="/project">{info.title}</NavLink>
+                    <NavLink to="/project" onClick={() => handleContactClick(info.title)}>{info.title}</NavLink>
                   </h4>
                   {info.address && (
                     <p className="feature-card-text mb-0">{info.address}</p>

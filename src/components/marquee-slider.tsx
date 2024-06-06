@@ -5,25 +5,25 @@ export default function MarqueeSlider() {
     {
       id: 1,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
+      text: "Defending Tomorrow with Today's Technology",
       icon: "fas fa-star-of-life",
     },
     {
       id: 2,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
+      text: "Innovative Defense for a Safer Future",
       icon: "fas fa-star-of-life",
     },
     {
       id: 3,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
+      text: "Advanced Security Solutions for Modern Threats",
       icon: "fas fa-star-of-life",
     },
     {
       id: 4,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
+      text: "State-of-the-Art Defense: Where Safety Meets Innovation",
       icon: "fas fa-star-of-life",
     },
   ];
