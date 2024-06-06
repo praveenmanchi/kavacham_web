@@ -38,7 +38,7 @@ export default function AboutPage() {
       {/* fact area */}
 
       {/* why area */}
-      <WhyAreaOne space="space-top"/>
+      <WhyAreaOne/>
       {/* why area */}
 
       {/* award area */}
