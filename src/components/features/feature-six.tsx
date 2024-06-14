@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import posthog from 'posthog-js';
 
 const feature_data = [
