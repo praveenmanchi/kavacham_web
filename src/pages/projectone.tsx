@@ -7,7 +7,7 @@ import BreadcrumbTwo from "../components/breadcrumb/breadcrumb-two";
 import ServiceDetailsArea from "../components/service/service-details-area";
 
 
-export default function ServiceDetailsPage() {
+export default function ProjectOnePage() {
   return (
     <Wrapper>
 

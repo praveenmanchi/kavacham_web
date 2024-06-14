@@ -29,7 +29,10 @@ import NotFoundPage from "../pages/not-found";
 import ServicePage from "../pages/service";
 import ServicePageTwo from "../pages/service-2";
 import ServicePageThree from "../pages/service-3";
-import ServiceDetailsPage from "../pages/project_one";
+import ServiceDetailsPage from "../pages/projectone";
+import ProjectOnePage from "../pages/projectone";
+import ProjectTwoPage from "../pages/projecttwo";
+import ProjectThreePage from "../pages/projectthree";
 
 
 export default function AppNavigation() {
@@ -59,6 +62,9 @@ export default function AppNavigation() {
         <Route path="/project-3" element={<ProjectThree />} />
         <Route path="/project-4" element={<ProjectFour />} />
         <Route path="/project-5" element={<ProjectFive />} />
+        <Route path="/project-one" element={<ProjectOnePage />} />
+        <Route path="/project-two" element={<ProjectTwoPage />} />
+        <Route path="/project-three" element={<ProjectThreePage />} />
         <Route path="/project-6" element={<ProjectSix />} />
         <Route path="/project-details" element={<ProjectDetails />} />
         <Route path="/blog" element={<Blog />} />

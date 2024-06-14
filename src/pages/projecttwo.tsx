@@ -7,12 +7,12 @@ import BreadcrumbTwo from "../components/breadcrumb/breadcrumb-two";
 import ServiceDetailsArea from "../components/service/service-details-area";
 
 
-export default function ServiceDetailsPage() {
+export default function ProjectTwoPage() {
   return (
     <Wrapper>
 
       {/* seo title */}
-      <SEOCom title="Project one" />
+      <SEOCom title="Project two" />
       {/* seo title */}
 
       {/* header area start */}
@@ -20,7 +20,7 @@ export default function ServiceDetailsPage() {
       {/* header area end */}
 
       {/* breadcrumb start */}
-      <BreadcrumbTwo title="Services" subtitle="Project one" />
+      <BreadcrumbTwo title="Services" subtitle="Project Two" />
       {/* breadcrumb end */}
 
       {/* service details area */}

@@ -61,7 +61,7 @@ export default function FeatureSix() {
                         <a href="#" onClick={() => handleFeatureClick(elm.title)}>{elm.title}</a>
                       </h4>
                       <p className="feature-card-text">{elm.text}</p>
-                      <NavLink to={elm.link} className="link-btn">
+                      {/* <NavLink to={elm.link} className="link-btn">
                         <span className="link-effect">
                           <span className="effect-1">VIEW DETAILS</span>
                           <span className="effect-1">VIEW DETAILS</span>
@@ -70,7 +70,7 @@ export default function FeatureSix() {
                           src="/assets/img/icon/arrow-left-top.svg"
                           alt="icon"
                         />
-                      </NavLink>
+                      </NavLink> */}
                     </div>
                   </div>
                 </div>
