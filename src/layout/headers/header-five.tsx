@@ -41,15 +41,15 @@ export default function HeaderFive() {
             </ul>
           </div>
           <div className="sidebar-wrap">
-            <h6>27 Division St, New York,</h6>
-            <h6>NY 10002, USA</h6>
+            <h6>"Plot no.9, Masijid banda,</h6>
+            <h6>Hyderabad, India 50084</h6>
           </div>
           <div className="sidebar-wrap">
             <h6>
-              <a href="tel:1800123654987">+1 800 123 654 987 </a>
+              <a href="tel:1800123654987">+91 829 798 7394</a>
             </h6>
             <h6>
-              <a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a>
+              <a href="mailto:contact@kavacham.tech">contact@kavacham.tech</a>
             </h6>
           </div>
           <div className="social-btn style3">
