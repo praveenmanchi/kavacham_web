@@ -1,6 +1,6 @@
 import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
-import HeaderFour from "../layout/headers/header-four";
+// import HeaderFour from "../layout/headers/header-four";
 import HeroBannerFive from "../components/hero-banner/hero-banner-five";
 import AboutTwo from "../components/about/about-two";
 import PortfolioFive from "../components/portfolio/portfolio-five";
@@ -8,6 +8,8 @@ import VideoArea from "../components/video/video-area";
 // import BlogOne from "../components/blog/blog-one";
 import FooterOne from "../layout/footer/footer-one";
 import FeatureSix from "../components/features/feature-six";
+import HeaderFive from "../layout/headers/header-five";
+
 
 
 export default function HomeFive() {
@@ -20,7 +22,7 @@ export default function HomeFive() {
 
       
       {/* header area start */}
-      <HeaderFour />
+      <HeaderFive />
       {/* header area end */}
 
       {/* hero banner area start */}

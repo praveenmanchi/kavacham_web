@@ -10,8 +10,8 @@ const slider_data = [
     image: "/assets/img/source/hero-1.jpg",
   },
   {
-    title: "Modern Warfare Solutions",
-    subtitle: "We are digital agency that helps immersive and engaging user experiences that",
+    title: "Modern Warfare software",
+    subtitle: "We are software agency that helps software and engaging user experiences that",
     image: "/assets/img/source/hero-2.jpg",
   },
 ]
