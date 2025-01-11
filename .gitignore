@@ -39,3 +39,7 @@ logs
 # Distribution directories
 dist/
 build/
+*storybook.log
+
+node_modules
+storybook-static

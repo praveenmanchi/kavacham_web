@@ -1,0 +1,21 @@
+<style>
+  /* Hide the default Storybook logo */
+  [title="Storybook"] img {
+    display: none;
+  }
+
+  /* Add your custom logo */
+  [title="Storybook"]::before {
+    content: "";
+    display: block;
+    height: 32px;
+    width: 150px;  /* Adjust based on your logo dimensions */
+    background: url('path/to/your/logo.png') no-repeat center;
+    background-size: contain;
+  }
+
+  /* Optional: Customize other UI elements */
+  .sidebar-header {
+    padding: 15px;
+  }
+</style>
