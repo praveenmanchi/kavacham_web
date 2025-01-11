@@ -100,8 +100,8 @@ export default function HeaderThree() {
                   <div className="header-button">
                     <NavLink to="/contact" className="btn">
                       <span className="link-effect">
-                        <span className="effect-1">WORKS WITH US</span>
-                        <span className="effect-1">WORKS WITH US</span>
+                        <span className="effect-1">Contact Us</span>
+                        <span className="effect-1">Contact Us</span>
                       </span>
                     </NavLink>
                   </div>

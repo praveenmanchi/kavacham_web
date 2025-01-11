@@ -101,8 +101,8 @@ export default function HeaderFive() {
                       className="btn bg-theme text-title"
                     >
                       <span className="link-effect">
-                        <span className="effect-1">WORKS WITH US</span>
-                        <span className="effect-1">WORKS WITH US</span>
+                        <span className="effect-1">Contact Us</span>
+                        <span className="effect-1">Contact Us</span>
                       </span>
                     </NavLink>
                   </div>
