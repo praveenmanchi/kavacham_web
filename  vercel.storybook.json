@@ -3,10 +3,7 @@
     "outputDirectory": "storybook-static",
     "framework": "vite",
     "installCommand": "npm install",
-    "public": true,
-    "github": {
-      "enabled": true,
-      "silent": true
-    },
-    "ignoreCommand": "git diff --quiet HEAD^ HEAD .storybook/ 'src/**/*.stories.tsx' 'src/**/*.stories.ts' 'src/**/*.stories.mdx'"
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "public": true
   }

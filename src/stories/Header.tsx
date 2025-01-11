@@ -1,5 +1,5 @@
-import React from 'react';
-
+// Header.tsx
+import type { FC } from 'react';
 import { Button } from './Button';
 import './header.css';
 
@@ -7,14 +7,14 @@ type User = {
   name: string;
 };
 
-export interface HeaderProps {
+interface HeaderProps {
   user?: User;
-  onLogin?: () => void;
-  onLogout?: () => void;
-  onCreateAccount?: () => void;
+  onLogin: () => void;
+  onLogout: () => void;
+  onCreateAccount: () => void;
 }
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => (
+export const Header: FC<HeaderProps> = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <header>
     <div className="storybook-header">
       <div>
