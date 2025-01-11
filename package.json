@@ -10,11 +10,12 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "preview-storybook": "serve storybook-static"
+    "preview-storybook": "serve storybook-static",
+    "deploy-storybook": "storybook build && vercel --config vercel.storybook.json",
+    "deploy-main": "npm run build && vercel"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.23.1",
-    "@storybook/addon-designs": "^8.0.4",
     "@types/imagesloaded": "^4.1.6",
     "@types/jquery": "^3.5.29",
     "@types/react-modal-video": "^1.2.3",
@@ -40,11 +41,11 @@
     "react-tooltip": "^5.26.3",
     "sass": "^1.72.0",
     "slick-carousel": "^1.8.1",
-    "storybook-figma": "^0.1.2",
     "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.3",
+    "@storybook/addon-designs": "^8.0.4",
     "@storybook/addon-essentials": "^8.4.7",
     "@storybook/addon-interactions": "^8.4.7",
     "@storybook/addon-mdx-gfm": "^8.4.7",
@@ -64,7 +65,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "eslint-plugin-storybook": "^0.11.2",
+    "serve": "^14.2.1",
     "storybook": "^8.4.7",
+    "storybook-figma": "^0.1.2",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   },
