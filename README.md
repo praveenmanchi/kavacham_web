@@ -33,6 +33,8 @@ export default {
 
 This project uses [Storybook](https://storybook.js.org/) for component development.
 
+All components and pages now include Storybook stories for easier navigation.
+
 To get started:
 
 ```bash
