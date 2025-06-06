@@ -28,3 +28,22 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Storybook
+
+This project uses [Storybook](https://storybook.js.org/) for component development.
+
+To get started:
+
+```bash
+npm install
+npm run storybook
+```
+
+This launches Storybook at `http://localhost:6006` so you can explore UI components.
+
+To build the static version for deployment run:
+
+```bash
+npm run build-storybook
+```
