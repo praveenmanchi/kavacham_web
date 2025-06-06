@@ -40,6 +40,12 @@ npm install
 npm run storybook
 ```
 
+If you're in a headless environment (no browser available), run Storybook with:
+
+```bash
+npm run storybook -- --no-open
+```
+
 This launches Storybook at `http://localhost:6006` so you can explore UI components.
 
 To build the static version for deployment run:
