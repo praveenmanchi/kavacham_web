@@ -12,7 +12,8 @@
     "build-storybook": "storybook build",
     "preview-storybook": "serve storybook-static",
     "deploy-storybook": "storybook build && vercel --config vercel.storybook.json",
-    "deploy-main": "npm run build && vercel"
+    "deploy-main": "npm run build && vercel",
+    "deploy-vercel": "bash scripts/deploy-vercel.sh"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.23.1",
