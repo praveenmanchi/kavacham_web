@@ -49,3 +49,15 @@ To build the static version for deployment run:
 ```bash
 npm run build-storybook
 ```
+
+## Deployment to Vercel
+
+Deploy both the website and Storybook via:
+
+```bash
+npm run deploy-vercel
+```
+
+The script builds the project and publishes the website to the Vercel project
+`kavacham` and Storybook to `kavacham_storybook`. Ensure the `vercel` CLI is
+installed and you are logged in.
