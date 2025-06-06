@@ -12,4 +12,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = {
+  args: {
+    team: {
+      id: 1,
+      imageSrc: '/assets/img/team/team1.jpg',
+      name: 'John Doe',
+      designation: 'Developer',
+    },
+  },
+};
